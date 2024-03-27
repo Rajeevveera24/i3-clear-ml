@@ -1,0 +1,229 @@
+i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models'
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/62afa5440a254cb581c7aa8eaeffa05d/experiments/b2a7ceec58654b8fbc2561a76cbcd7bd/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/62afa5440a254cb581c7aa8eaeffa05d/experiments/b2a7ceec58654b8fbc2561a76cbcd7bd
+New dataset created id=b2a7ceec58654b8fbc2561a76cbcd7bd
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data add --files models
+clearml-data - Dataset Management & Versioning CLI
+Adding files/folder/links to dataset id b2a7ceec58654b8fbc2561a76cbcd7bd
+Generating SHA2 hash for 6 files
+Hash generation completed
+6 files added
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id b2a7ceec58654b8fbc2561a76cbcd7bd
+Pending uploads, starting dataset upload to https://files.clear.ml
+Uploading dataset changes (6 files compressed to 194.66 MiB) to https://files.clear.ml
+File compression and upload completed: total size 194.66 MiB, 1 chunk(s) stored (average size 194.66 MiB)
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ ls
+data_set  data_set.py  hello_world.py  model.pkl  models  model.sav  pipeline.py
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models'
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/62afa5440a254cb581c7aa8eaeffa05d/experiments/fa5b858111f5496fac58098f1ae8f296/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/62afa5440a254cb581c7aa8eaeffa05d/experiments/fa5b858111f5496fac58098f1ae8f296
+New dataset created id=fa5b858111f5496fac58098f1ae8f296
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data add --files models/user_ratings.csv 
+clearml-data - Dataset Management & Versioning CLI
+Adding files/folder/links to dataset id fa5b858111f5496fac58098f1ae8f296
+1 file added
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id fa5b858111f5496fac58098f1ae8f296
+Pending uploads, starting dataset upload to https://files.clear.ml
+Uploading dataset changes (1 files compressed to 5.76 MiB) to https://files.clear.ml
+File compression and upload completed: total size 5.76 MiB, 1 chunk(s) stored (average size 5.76 MiB)
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'User_Ratings'
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/3257de645971428aabc4cd3bc02b0357/experiments/698c22872aa34f7ea1f6d04e443035ed/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/3257de645971428aabc4cd3bc02b0357/experiments/698c22872aa34f7ea1f6d04e443035ed
+New dataset created id=698c22872aa34f7ea1f6d04e443035ed
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data add --files models/user_ratings.csv 
+clearml-data - Dataset Management & Versioning CLI
+Adding files/folder/links to dataset id 698c22872aa34f7ea1f6d04e443035ed
+1 file added
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id 698c22872aa34f7ea1f6d04e443035ed
+Pending uploads, starting dataset upload to https://files.clear.ml
+Uploading dataset changes (1 files compressed to 5.76 MiB) to https://files.clear.ml
+File compression and upload completed: total size 5.76 MiB, 1 chunk(s) stored (average size 5.76 MiB)
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'User_Ratings'
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/3257de645971428aabc4cd3bc02b0357/experiments/be404bc1b08c4a7a82ea0fbf1f5d3ebc/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/3257de645971428aabc4cd3bc02b0357/experiments/be404bc1b08c4a7a82ea0fbf1f5d3ebc
+New dataset created id=be404bc1b08c4a7a82ea0fbf1f5d3ebc
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data add --files models/user_ratings.csv 
+clearml-data - Dataset Management & Versioning CLI
+Adding files/folder/links to dataset id be404bc1b08c4a7a82ea0fbf1f5d3ebc
+1 file added
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id be404bc1b08c4a7a82ea0fbf1f5d3ebc
+Pending uploads, starting dataset upload to https://files.clear.ml
+Uploading dataset changes (1 files compressed to 5.76 MiB) to https://files.clear.ml
+File compression and upload completed: total size 5.76 MiB, 1 chunk(s) stored (average size 5.76 MiB)
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'User_Ratings' --parents be404bc1b08c4a7a82ea0fbf1f5d3ebc
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/3257de645971428aabc4cd3bc02b0357/experiments/ab6ed578b7e84d7e8b13cf55ce79c2d3/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/3257de645971428aabc4cd3bc02b0357/experiments/ab6ed578b7e84d7e8b13cf55ce79c2d3
+New dataset created id=ab6ed578b7e84d7e8b13cf55ce79c2d3
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ gs
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.gitignore
+        ../full_clearml_overview/
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id ab6ed578b7e84d7e8b13cf55ce79c2d3
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models'
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+^C
+User aborted
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ ^C
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models' --parents b2a7ceec58654b8fbc2561a76cbcd7bd
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/62afa5440a254cb581c7aa8eaeffa05d/experiments/79b4adb760a84abb9237765914824892/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/62afa5440a254cb581c7aa8eaeffa05d/experiments/79b4adb760a84abb9237765914824892
+New dataset created id=79b4adb760a84abb9237765914824892
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data add --files models
+clearml-data - Dataset Management & Versioning CLI
+Adding files/folder/links to dataset id 79b4adb760a84abb9237765914824892
+Generating SHA2 hash for 3 files
+Hash generation completed
+0 files added
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id 79b4adb760a84abb9237765914824892
+Pending uploads, starting dataset upload to https://files.clear.ml
+File compression and upload completed: total size 0 B, 0 chunk(s) stored (average size 0 B)
+2024-03-26 04:21:14,882 - clearml - INFO - No pending files, skipping upload.
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models' --parents b2a7ceec58654b8fbc2561a76cbcd7bd
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/62afa5440a254cb581c7aa8eaeffa05d/experiments/6a3bfdaa6e064cc6a07ac47bcdf8b8e1/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/62afa5440a254cb581c7aa8eaeffa05d/experiments/6a3bfdaa6e064cc6a07ac47bcdf8b8e1
+New dataset created id=6a3bfdaa6e064cc6a07ac47bcdf8b8e1
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data add --files models/
+clearml-data - Dataset Management & Versioning CLI
+Adding files/folder/links to dataset id 6a3bfdaa6e064cc6a07ac47bcdf8b8e1
+Generating SHA2 hash for 4 files
+Hash generation completed
+1 file added
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data close
+clearml-data - Dataset Management & Versioning CLI
+Finalizing dataset id 6a3bfdaa6e064cc6a07ac47bcdf8b8e1
+Pending uploads, starting dataset upload to https://files.clear.ml
+Uploading dataset changes (1 files compressed to 124 B) to https://files.clear.ml
+File compression and upload completed: total size 124 B, 1 chunk(s) stored (average size 124 B)
+Dataset closed and finalized
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models' --parents b2a7ceec58654b8fbc2561a76cbcd7bd^C
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data create --project 'My First Project' --name 'Models' --parents 79b4adb760a84abb9237765914824892
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/62afa5440a254cb581c7aa8eaeffa05d/experiments/2c0e0171feba435184d724a2b73d886d/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/62afa5440a254cb581c7aa8eaeffa05d/experiments/2c0e0171feba435184d724a2b73d886d
+New dataset created id=2c0e0171feba435184d724a2b73d886d
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data update --files models/
+clearml-data - Dataset Management & Versioning CLI
+usage: clearml-data [-h] {create,add,set-description,sync,remove,upload,close,publish,delete,rename,move,compare,squash,search,verify,list,get} ...
+clearml-data: error: argument command: invalid choice: 'update' (choose from 'create', 'add', 'set-description', 'sync', 'remove', 'upload', 'close', 'publish', 'delete', 'rename', 'move', 'compare', 'squash', 'search', 'verify', 'list', 'get')
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data sync --files models/
+clearml-data - Dataset Management & Versioning CLI
+usage: clearml-data sync [-h] [--id ID] [--dataset-folder DATASET_FOLDER] --folder FOLDER [--parents [PARENTS [PARENTS ...]]] [--project PROJECT] [--name NAME]
+                         [--version VERSION] [--output-uri OUTPUT_URI] [--tags [TAGS [TAGS ...]]] [--storage STORAGE] [--skip-close] [--chunk-size CHUNK_SIZE]
+                         [--verbose]
+clearml-data sync: error: the following arguments are required: --folder
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ clearml-data sync --folder models/
+clearml-data - Dataset Management & Versioning CLI
+Syncing dataset id 2c0e0171feba435184d724a2b73d886d to local folder models/
+Generating SHA2 hash for 4 files
+Hash generation completed
+Sync completed: 3 files removed, 1 added, 0 modified
+Finalizing dataset
+Pending uploads, starting dataset upload to https://files.clear.ml
+Uploading dataset changes (1 files compressed to 124 B) to https://files.clear.ml
+File compression and upload completed: total size 124 B, 1 chunk(s) stored (average size 124 B)
+Dataset closed and finalized
+
+
+
+
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../assignments$ clearml-data create --project "My First Project" --name "Models" --parents 2c0e0171feba435184d724a2b73d886d
+clearml-data - Dataset Management & Versioning CLI
+Creating a new dataset:
+ClearML results page: https://app.clear.ml/projects/62afa5440a254cb581c7aa8eaeffa05d/experiments/ea04bf9d25024d22b00e65e1cebcc134/output/log
+ClearML dataset page: https://app.clear.ml/datasets/simple/62afa5440a254cb581c7aa8eaeffa05d/experiments/ea04bf9d25024d22b00e65e1cebcc134
+New dataset created id=ea04bf9d25024d22b00e65e1cebcc134
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../assignments$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../assignments$ 
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../assignments$ clearml-data sync --folder  i3-clear-ml/my_code/models
+clearml-data - Dataset Management & Versioning CLI
+Syncing dataset id ea04bf9d25024d22b00e65e1cebcc134 to local folder i3-clear-ml/my_code/models
+Generating SHA2 hash for 3 files
+Hash generation completed
+Sync completed: 1 files removed, 0 added, 0 modified
+Finalizing dataset
+Pending uploads, starting dataset upload to https://files.clear.ml
+File compression and upload completed: total size 0 B, 0 chunk(s) stored (average size 0 B)
+2024-03-26 05:38:05,255 - clearml - INFO - No pending files, skipping upload.
+Dataset closed and finalized
+
+
+(i3-mlip) raj@raj-HP-ProBook-440-G4:~/.../my_code$ python3 trigger_scheduler.py 
+ClearML Task: created new task id=2272dd1e60af4a6fba8562b70b9cf9f5
+2024-03-26 05:37:15,333 - clearml.Repository Detection - WARNING - Can't get url information for git repo in /home/raj/Documents/cmu/sem2/aie/assignments/i3-clear-ml/my_code
+2024-03-26 05:37:15,359 - clearml.Repository Detection - WARNING - Can't get branch information for git repo in /home/raj/Documents/cmu/sem2/aie/assignments/i3-clear-ml/my_code
+2024-03-26 05:37:15,369 - clearml.Repository Detection - WARNING - Can't get commit information for git repo in /home/raj/Documents/cmu/sem2/aie/assignments/i3-clear-ml/my_code
+2024-03-26 05:37:15,413 - clearml.Repository Detection - WARNING - Can't get diff information for git repo in /home/raj/Documents/cmu/sem2/aie/assignments/i3-clear-ml/my_code
+ClearML results page: https://app.clear.ml/projects/5aae9d7ab94341909e5bf295e67575ec/experiments/2272dd1e60af4a6fba8562b70b9cf9f5/output/log
+Sleeping until the next pool in 1.0 minutes
+Sleeping until the next pool in 1.0 minutes
+Scheduling Job Retrain On Dataset, Task d0397fca9d1d4220883b53eb1955266c on queue default.
+Sleeping until the next pool in 1.0 minutes
+Sleeping until the next pool in 1.0 minut
+
+
+
